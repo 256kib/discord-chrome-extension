@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.role {
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+    gap: 3px;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.role__color {
+    border-radius: 50px;
+    background: red;
+    width: 0.8em;
+    height: 0.8em;
+    margin: auto;
+}
+
+.role__text {
+    text-align: left;
+}
+
+.role__text::first-letter{
+    text-transform: capitalize;
+}
+
+.emoji {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Embed Creator",
+  "version": "1.0.0",
+  "description": "A kinda basic embed creator 😎",
+  "permissions": ["tabs", "scripting","storage"],
+  "background":{
+    "service_worker": "js/background/background.js",
+    "type":"module"
+  },
+  "web_accessible_resources":[{
+    "resources": ["js/content/resource/*"],
+    "matches":["https://discohook.org/*","https://discohook.app/*"]
+},{
+    "resources": ["js/content/resource/discordMonkeypatch.js"],
+    "matches":["https://discord.com/*"]
+}],
+  "action":{
+    "default_popup":"html/popup.html"
+  },
+  "content_scripts":[{
+    "matches":["https://discord.com/*"],
+    "js":["js/content/discord.js"]
+},{
+  "matches":["https://discohook.org/*","https://discohook.app/*"],
+  "js":["js/libs/DOMFunctionsNM.js","js/content/discohook.js","js/content/discohookListeners.js"]
+
+},{
+  "matches":["https://carl.gg/dashboard*"],
+  "js":["js/content/carlDashboard.js"]
+}]
+}

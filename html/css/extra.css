@@ -1,0 +1,16 @@
+.center-text{
+    text-align: center;
+}
+
+.title{
+    font-size: 1.2rem;
+}
+
+
+br {
+    line-height: 30%;
+}
+
+.clickable {
+    cursor: pointer;
+}
