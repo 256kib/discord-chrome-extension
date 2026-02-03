@@ -47,11 +47,10 @@ document.addEventListener("emojiinfo", (event) => {
 
 
 //formats emojis
-//this shit still does not support normal discord emojis cuz they are written in a gay way
+//this shit still does not support normal discord emojis cuz they are written in a homosexual way
 function formatEmoji(target) {
     let listAncestor = target.closest('li[aria-colindex]')
     if (!listAncestor) return
-    console.log("this is a emoji gng")
     let emojiButton = listAncestor.querySelector("button[data-id], button[data-surrogates]")
     let emojiId = emojiButton.getAttribute("data-id")
     let emojiName = emojiButton.getAttribute("data-name")
