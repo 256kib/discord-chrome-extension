@@ -20,3 +20,5 @@ So this is an awesome (not really) discord extension that should help with self-
 # Note
 
 For now this extension does not support default discord emojis
+
+you can only use emojis from server carl-bot is into, and they can be emojis from server that are different from the one you own
