@@ -17,6 +17,13 @@ So this is an awesome (not really) discord extension that should help with self-
 7) insert the message id you copied and answer if all the roles should be pickable from the message (empty for no)
 8) you are done :D now the reaction roles should work!
 
+# How to install and use
+### Clone the repo
+```
+git clone https://github.com/256kib/discord-chrome-extension.git
+```
+### [Load discord-chrome-extension as an unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?#load-unpacked)
+
 # Note
 
 For now this extension does not support default discord emojis
