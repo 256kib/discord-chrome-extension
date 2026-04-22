@@ -12,7 +12,7 @@ So this is an awesome (not really) discord extension that should help with self-
 2) Copy the webhook url from the channel you intend to create the self-role to
 3) go on [discohook.org](https://discohook.org/?data=eyJtZXNzYWdlcyI6W3siZGF0YSI6eyJjb250ZW50IjpudWxsLCJlbWJlZHMiOlt7ImNvbG9yIjpudWxsfV0sImF0dGFjaG1lbnRzIjpbXX19XX0)
 4) create your embed, basically click on any text area and then you can simply click on the buttons and the text will appear there
-5) send the embed and copy the message id from it (this part could be removed by monkey-patching fetch on disboard)
+5) send the embed and copy the message id from it (this part could be removed by monkey-patching fetch on discord)
 6) go on [carl.gg](https://carl.gg/servers) and click on the server you copied the webhook from
 7) insert the message id you copied and answer if all the roles should be pickable from the message (empty for no)
 8) you are done :D now the reaction roles should work!
